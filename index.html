@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Holisitically Evaluating Reasoning Over Legal Texts in Large Language Models</title>
+    <title>Holistically Evaluating Reasoning Over Legal Texts in Large Language Models</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -30,11 +30,12 @@
 
     <h2>Abstract</h2>
     <p>
-        Large Language Models (LLMs) continue to grow in both capacity and usage, particularly in the legal community. As such, scholars are working to determine whether LLMs can accurately reason over legal texts. A significant outstanding question is whether models can apply the accepted legal framework of Issue-spotting, rule-Recall, rule-Application, and rule-Conclusion (IRAC) to a set of facts.
-    </p>
-
+        Large language models (LLMs) continue to grow in both capacity and usage, particularly in the legal community. As such, scholars are working to determine whether LLMs can accurately reason over legal texts. A significant outstanding question is whether models can apply the accepted IRAC legal framework --- Issue-spotting (I), rule-Recall (R), rule-Application (A), and rule-Conclusion (C) --- to a set of facts.
     <p>
-        This thesis modifies an accepted statutory reasoning assessment dataset rooted in American tax law, and it creates a new natural-language subset on which models can be prompted to apply the IRAC framework. Additionally, this thesis presents an empirical evaluation of 19 open-source and commercial LLMs in their modular application of IRAC framework components; provides an analysis of common patterns and accuracy metrics; and outlines directions for future and related work. 
+        This thesis modifies an accepted statutory reasoning assessment dataset rooted in American tax law, and it creates a new natural-language subset on which models can be prompted to apply the IRAC framework. Additionally, we present an empirical evaluation of 19 open-source and commercial LLMs in their modular application of IRAC framework components; provide an analysis of common patterns and accuracy metrics; and outline directions for future and related work. 
+    </p>
+    <p>
+        Our results demonstrate that larger parameter counts generally correlate to higher scores across components of the IRAC framework, as well as evaluation metrics such as balanced accuracy and mean absolute percent error (MAPE). Family-specific trends appear to hold across different size points, suggesting that pretraining and instruction-tuning play an important role in driving variation amongst different model families. We notice a substantial gap between the performances of commercial and open-source models, particularly in the areas of rule-recall and rule-application. We also observe that rule-application is the lowest scoring category across all models, regardless of parameter count. Importantly, this indicates that chain-of-thought prompting could play a significant role in improving models' analytic capabilities. Areas for future work include expanding tasks to include other categories of legal reasoning and experimenting with model fine-tuning.
     </p>
 
     <h2>Links</h2>
