@@ -18,7 +18,7 @@ We modify these SARA entailment tasks to determine whether models can effectivel
 
 ## Task construction
 
-For detailed information surrounding construction of the SARA dataset, refer to the [SARA](https://ceur-ws.org/Vol-2645/paper5.pdf) or [LegalBench] papers (https://arxiv.org/pdf/2308.11462). These tasks and prompts draw specifically from the public-access [SARA](https://github.com/SgfdDttt/sara) and [LegalBench] (https://github.com/HazyResearch/legalbench) repositories. For information surrounding the construction of this modified subset, refer to the accompanying paper.
+For detailed information surrounding construction of the SARA dataset, refer to the [SARA](https://ceur-ws.org/Vol-2645/paper5.pdf) or [LegalBench](https://arxiv.org/pdf/2308.11462) papers. These tasks and prompts draw specifically from the public-access [SARA](https://github.com/SgfdDttt/sara) and [LegalBench](https://github.com/HazyResearch/legalbench) repositories. For information surrounding the construction of this modified subset, refer to the accompanying paper.
 
 Note: The original SARA dataset contains both entailment prompts and numerical questions which require computing the amount of tax owed. This subset only contains modified entailment tasks.
 
