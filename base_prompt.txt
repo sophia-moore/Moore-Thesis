@@ -1,0 +1,6 @@
+Based on the description provided, specify the relevant section of the Internal Revenue Code (IRC) and answer the question.
+
+Description: {{description}}
+Question: {{question}}
+Section:
+Answer:
