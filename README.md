@@ -12,18 +12,18 @@
 ## Task description
 
 The StAtutory Reasoning Assessment (SARA) dataset investigates the effects of natural language
-understanding approaches on statutory reasoning. SARA includes a set of Internal Revenue Code (IRC) statues, cases, and prompts. A subset of SARA relates to entailment, and asks questions about specific sections of the SARA statues. 
+understanding approaches on statutory reasoning. SARA includes a set of Internal Revenue Code (IRC) statutes, cases, and prompts. A subset of SARA relates to entailment, and asks questions about specific sections of the SARA statutes. 
 
-We modify these SARA entailment tasks to determine whether models can effectively recall, apply, and make conclusions using legal rules. This represents a test of the legal Issue-spotting, Rule-recall, Application and Conclusion (IRAC) framework. 
+We modify these SARA entailment tasks to determine whether models can effectively recall, apply, and make conclusions using legal rules. This represents a test of the legal Issue-spotting (I), rule-Recall (R), rule-Application (A) and rule-Conclusion (C) framework (IRAC). 
 
 ## Task construction
 
-For detailed information surrounding task construction of the SARA dataset, refer to the [SARA](https://ceur-ws.org/Vol-2645/paper5.pdf) or [LegalBench] papers (https://arxiv.org/pdf/2308.11462). These tasks and prompts draw specifically from the public-access [SARA](https://github.com/SgfdDttt/sara) and [LegalBench] (https://github.com/HazyResearch/legalbench) repositories. For information surrounding the contrusction of this modified subset, refer to the accompanying paper.
+For detailed information surrounding construction of the SARA dataset, refer to the [SARA](https://ceur-ws.org/Vol-2645/paper5.pdf) or [LegalBench](https://arxiv.org/pdf/2308.11462) papers. These tasks and prompts draw specifically from the public-access [SARA](https://github.com/SgfdDttt/sara) and [LegalBench](https://github.com/HazyResearch/legalbench) repositories. For information surrounding the construction of this modified subset, refer to the accompanying paper.
 
 Note: The original SARA dataset contains both entailment prompts and numerical questions which require computing the amount of tax owed. This subset only contains modified entailment tasks.
 
 ## Citation information
-If you use this modified dataset, we ask that you also cite the source:
+If you use this modified dataset, we ask that you also cite the original source:
 
 bib
 @article{holzenberger2021factoring,
